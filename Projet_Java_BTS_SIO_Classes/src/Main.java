@@ -10,6 +10,7 @@ public class Main {
         System.out.println("Voiture | Marque : " + marque + " Modèle : " + modele + " Année : " + annee + " Prix : " + prix);
          */
 
+        /*
         Voiture v1 = new Voiture();
         Voiture v2 = new Voiture();
         Voiture v3 = new Voiture();
@@ -29,6 +30,9 @@ public class Main {
         v1.prix = 14500;
         v2.prix = 3500;
         v3.prix = 9800;
+         */
+
+        Voiture v1 = new Voiture("Peugeot", "208", 2021, 14500);
 
     }
 }
