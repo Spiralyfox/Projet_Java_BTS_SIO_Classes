@@ -32,7 +32,10 @@ public class Main {
         v3.prix = 9800;
          */
 
-        Voiture v1 = new Voiture("Peugeot", "208", 2021, 14500);
+        // Voiture v1 = new Voiture("Peugeot", "208", 2021, 14500);
+
+        Pneu p1 = new Pneu(55, 205, 16, "été");
+        Voiture v1 = new Voiture("Peugeot", "208", 2021, 14500, p1);
 
     }
 }
